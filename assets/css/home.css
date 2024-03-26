@@ -2388,7 +2388,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 0px;
     padding: 20px;
   }
   .skill {
@@ -2842,8 +2842,8 @@ span {
     height: auto;
     /* background-color: aqua; */
     border-top: 2px solid #f9004d;
-    margin-top: 70px;
-    padding-top: 70px;
+    margin-top: 60px;
+    padding-top:0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2863,6 +2863,7 @@ span {
     height: 100%;
     /* background-color: #ffff00; */
     margin-bottom: 40px;
+    margin-top: 40px;
     
   }
   .tag5 {
@@ -2961,16 +2962,17 @@ span {
     /* background-color: indigo; */
     margin-top: 20px;
     margin-left: 0px;
-    margin-bottom: 40px;
+    margin-bottom:30px;
     text-align: justify;
     padding-left: 20px;
+    margin-top: 30px;
   }
   .paragraph5 p {
     font-weight: 500;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 28px;
     /* background-color: #ffff00; */
-    width: 100%;
+    width: 90%;
   }
   .rollno7 {
     width: 100%;
@@ -3010,7 +3012,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 7px;
     /* padding-top: 20px; */
     transition: 0.3s;
@@ -3058,8 +3060,10 @@ span {
     margin-right: 5px;
     color: #f9004d;
   }
+
+
   .visitblog {
-    width: 100%;
+    width: auto;
     height: auto;
     /* background-color: #ffff00; */
     text-align: center;
@@ -3069,19 +3073,20 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
   }
   .mainblock {
-    width: 80%;
-    height: 100%;
-    /* background-color: #f9004d; */
+    width: 100%;
+    height: auto;
+    /* background-color: #13cf81; */
     margin-bottom: 30px;
     margin-top: 40px;
   }
   .demo {
     width: 100%;
-    height: 20%;
+    height: 100%;
     /* background-color: aqua; */
-    line-height: 50px;
+    line-height: 35px;
   }
   .demo h2 {
     font-size: 17px;
@@ -3089,27 +3094,29 @@ span {
     color: #f9004d;
   }
   .demo h1 {
-    font-size: 55px;
+    font-size: 35px;
   }
   .blogbox {
     width: 100%;
     height: 100%;
     /* background-color: maroon; */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 30px;
   }
   .flexbox {
     height: 380px;
-    width: 32%;
-    /* background-color: magenta; */
-    background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
+    width: 100%;
+    /* background: magenta; */
+    /* background: linear-gradient(to bottom right, rgb(224, 224, 224), white); */
     padding: 25px;
     /* margin-top: 20px; */
     border-radius: 7px;
     /* margin: 30px; */
     text-align: justify;
+    margin-bottom: 30px;
   }
   .myblog {
     width: 100%;
@@ -3132,6 +3139,7 @@ span {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+    /* background-color: brown; */
   }
   .hours h2 {
     font-size: 13px;
@@ -3139,8 +3147,8 @@ span {
     padding-bottom: 20px;
     color: #f9004d;
   }
-  .hours i,
-  span {
+ 
+  .hours i, span {
     color: black;
   }
 
@@ -3148,55 +3156,60 @@ span {
     font-size: 20px;
     font-weight: 600;
   }
+
+
   .mycontacts {
-    width: 100%;
+    width: auto;
     height: auto;
-    /* background-color: #9c1d6b; */
+    background-color: #9c1d6b;
     border-top: 2px solid #f9004d;
-    margin-top: 70px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 90px;
+    padding-top: 60px;
+    padding: 20px;
   }
   .contact {
-    width: 80%;
+    width: 100%;
     height: 100%;
-    /* background-color: #f9004d; */
+    background-color: #f9004d;
   }
   .divbox4 {
     width: 100%;
     height: 18%;
-    /* background-color: aqua; */
+    background-color: aqua;
     text-align: center;
-    line-height: 50px;
+    line-height: 35px;
+    margin-top: 40px;
   }
   .divbox4 h2 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: #f9004d;
   }
   .divbox4 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
   .information6 {
     width: 100%;
     height: 100%;
-    /* background-color: rgb(117, 115, 119); */
-    margin-top: 70px;
+    background-color: rgb(117, 115, 119);
+    margin-top: 60px;
     /* padding-top: 30px; */
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
     margin-bottom: 200px;
   }
   .infoleft {
-    width: 40%;
+    width: 100%;
     height: 100%;
-    /* background-color: orange; */
-    background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
-    box-shadow: 5px 5px 10px rgb(202, 201, 201), -5px -5px 10px white;
+    background: orange;
+    /* background: linear-gradient(to bottom right, rgb(224, 224, 224), white); */
+    /* box-shadow: 5px 5px 10px rgb(202, 201, 201), -5px -5px 10px white; */
     /* margin-left: 10px; */
     /* margin-top: 20px; */
     border-radius: 7px;
@@ -3208,7 +3221,7 @@ span {
   }
   .greeting {
     width: 100%;
-    height: 280px;
+    height: 200px;
     /* background-color:magenta ; */
     border-radius: 7px;
     overflow: hidden;
@@ -3288,8 +3301,8 @@ span {
     background: #f9004d;
   }
   .inforight {
-    width: 55%;
-    height: 100%;
+    width: auto;
+    height: auto;
     /* background-color: rgb(61, 107, 61); */
     background: linear-gradient(
       to bottom right,
@@ -3301,14 +3314,16 @@ span {
     padding: 22px 20px;
     /* margin-top: 10px; */
     border-radius: 10px;
+    margin-top: 40px;
   }
   .yourinfo4 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     justify-content: space-between;
     height: 30%;
     width: 100%;
-    /* background-color: rgb(131, 34, 131); */
+    background-color: rgb(67, 184, 32);
   }
   .mobile5 h2 {
     font-size: 15px;
@@ -3317,7 +3332,7 @@ span {
   }
   .mobile5 input {
     height: 50px;
-    width: 260px;
+    width: 330px;
     border-radius: 7px;
     border: 2px solid gray;
   }
@@ -3328,7 +3343,7 @@ span {
   }
   .phonebox5 input {
     height: 50px;
-    width: 260px;
+    width: 100%;
     border-radius: 7px;
     border: 2px solid gray;
   }
