@@ -3161,7 +3161,7 @@ span {
   .mycontacts {
     width: auto;
     height: auto;
-    background-color: #9c1d6b;
+    /* background-color: #9c1d6b; */
     border-top: 2px solid #f9004d;
     margin-top: 20px;
     display: flex;
@@ -3173,12 +3173,12 @@ span {
   .contact {
     width: 100%;
     height: 100%;
-    background-color: #f9004d;
+    /* background-color: #f9004d; */
   }
   .divbox4 {
     width: 100%;
     height: 18%;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     line-height: 35px;
     margin-top: 40px;
@@ -3195,7 +3195,7 @@ span {
   .information6 {
     width: 100%;
     height: 100%;
-    background-color: rgb(117, 115, 119);
+    /* background-color: rgb(117, 115, 119); */
     margin-top: 60px;
     /* padding-top: 30px; */
     display: flex;
@@ -3207,7 +3207,7 @@ span {
   .infoleft {
     width: 100%;
     height: 100%;
-    background: orange;
+    /* background: orange; */
     /* background: linear-gradient(to bottom right, rgb(224, 224, 224), white); */
     /* box-shadow: 5px 5px 10px rgb(202, 201, 201), -5px -5px 10px white; */
     /* margin-left: 10px; */
@@ -3301,7 +3301,7 @@ span {
     background: #f9004d;
   }
   .inforight {
-    width: auto;
+    width: 100%;
     height: auto;
     /* background-color: rgb(61, 107, 61); */
     background: linear-gradient(
@@ -3323,7 +3323,10 @@ span {
     justify-content: space-between;
     height: 30%;
     width: 100%;
-    background-color: rgb(67, 184, 32);
+    /* background-color: rgb(67, 184, 32); */
+  }
+  .mobile5{
+    width: 100%;  
   }
   .mobile5 h2 {
     font-size: 15px;
@@ -3332,9 +3335,12 @@ span {
   }
   .mobile5 input {
     height: 50px;
-    width: 330px;
+    width: 100%;
     border-radius: 7px;
     border: 2px solid gray;
+  }
+  .phonebox5 {
+    width: 100%;
   }
   .phonebox5 h2 {
     font-size: 15px;
