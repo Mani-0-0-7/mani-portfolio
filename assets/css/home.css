@@ -11,6 +11,9 @@ body {
   overflow-x: hidden;
   /* align-items: center; */
 }
+html{
+  overflow-x: hidden;
+}
 .pro {
   /* background-color: rgb(230, 230, 230); */
   /* background-color: #f9004d; */
@@ -2159,12 +2162,11 @@ span {
   .main {
     width: 100%;
     height: 100%;
-    /* background-color: blueviolet; */
   }
   .live {
     height: 100px;
     width: 100%;
-    /* background-color: brown; */
+    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2182,7 +2184,6 @@ span {
   .bar2 {
     width: 100%;
     height: 250px;
-    /* background-color: seagreen; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2209,17 +2210,20 @@ span {
   .gridbox {
     height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 3fr);
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: repeat(1,3fr);
+    grid-gap: 20px; */
     /* background-color: rgb(255, 255, 255); */
     /* background-color: magenta; */
   }
   .box {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    /* background-color: navy; */
   }
   .box h2 {
     color: #f9004d;
@@ -2231,16 +2235,18 @@ span {
   .left5 {
     width: 100%;
     height: auto;
-    /* background-color: #ffff00; */
     border-left: 5px solid rgb(216, 214, 214);
-    padding-left: 0px;
+    padding-left: 20px;
     margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    grid-gap: 20px;
+    padding-top: 20px;
   }
   .boxnumber5 {
     height: 100%;
     width: 100%;
     margin-top: 50px;
-    /* background-color: orangered; */
   }
   .boxnumber5 h2 {
     color: #f9004d;
@@ -2252,15 +2258,20 @@ span {
   .right5 {
     width: 100%;
     height: auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    grid-gap: 20px;
     /* background-color: rgb(44, 235, 54); */
-    padding-left: 0px;
+    padding-left: 20px;
     margin-bottom: 80px;
     border-left: 5px solid rgb(216, 214, 214);
+    padding-top: 20px;
     /* background-color: rgb(216, 214, 214); */
   }
   .nun {
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
     box-shadow: 3px 3px 10px rgba(202, 201, 201),
       -3px -3px 10px rgba(255, 255, 255);
@@ -2269,9 +2280,11 @@ span {
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     position: relative;
     transition: 0.3s;
+    margin: 0;
+    padding: 0;
   }
   .nun::before {
     position: absolute;
