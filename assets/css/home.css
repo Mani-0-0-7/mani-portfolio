@@ -3286,9 +3286,9 @@ span {
     font-weight: 500;
   }
   .facbook6 {
-    width: 60%;
-    height: 50px;
-    /* background-color: #ffff00; */
+    width: 65%;
+    height: 60px;
+    background-color: #ffff00;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -3297,13 +3297,8 @@ span {
   .facbook6 i {
     height: 50px;
     width: 50px;
-    /* background-color: aqua; */
-    background: linear-gradient(
-      to bottom right,
-      rgb(238, 238, 238),
-      rgb(240, 240, 240),
-      white
-    );
+    background-color: aqua;
+    /* background: linear-gradient(to bottom right, rgb(238, 238, 238),rgb(240, 240, 240), white); */
     box-shadow: 5px 5px 10px rgb(202, 201, 201), -5px -5px 10px white;
     display: flex;
     align-items: center;
