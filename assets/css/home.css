@@ -2166,7 +2166,7 @@ span {
   .live {
     height: 100px;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2212,11 +2212,6 @@ span {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* display: grid;
-    grid-template-columns: repeat(1,3fr);
-    grid-gap: 20px; */
-    /* background-color: rgb(255, 255, 255); */
-    /* background-color: magenta; */
   }
   .box {
     width: 100%;
@@ -2224,6 +2219,7 @@ span {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    /* background-color: blue; */
   }
   .box h2 {
     color: #f9004d;
@@ -2242,6 +2238,7 @@ span {
     grid-template-columns: repeat(1,3fr);
     grid-gap: 20px;
     padding-top: 20px;
+    /* background-color: red; */
   }
   .boxnumber5 {
     height: 100%;
@@ -2278,7 +2275,7 @@ span {
     background-color: rgb(216, 214, 214);
     /* background: orange; */
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -2330,10 +2327,11 @@ span {
     background: #f9004d;
   }
   .event5 {
-    height: 140px;
+    height: auto;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     /* justify-content: flex-start; */
     /* background-color: #126bb4; */
@@ -2341,7 +2339,7 @@ span {
   }
   .polo {
     width: 100%;
-    height: 50%;
+    height: 100%;
     /* background-color: mediumspringgreen; */
     padding-bottom: 0px;
   }
@@ -2357,18 +2355,22 @@ span {
   .polo h3 {
     font-size: 17px;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     /* background-color: rebeccapurple; */
     color: rgb(112, 112, 112);
   }
   .mem {
     height: 30px;
-    width: 75px;
+    width:75px;
     /* background:aqua; */
-    margin-right: 270px;
+    margin-right: 0px;
     margin-bottom: 20px;
+    margin-top: 10px;
     padding: 5px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
     border-radius: 6px;
     background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
     box-shadow: 3px 3px 10px rgba(202, 201, 201),
@@ -2376,6 +2378,7 @@ span {
   }
   .mem h3 {
     text-align: center;
+
   }
   .nun:hover .mem {
     background: rgb(41, 38, 38);
@@ -2383,7 +2386,7 @@ span {
     box-shadow: 0px 0px 10px rgb(185, 1, 1);
   }
   .para {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .para p {
     line-height: 25px;
@@ -3433,5 +3436,26 @@ span {
   }
   .sendmsg:hover i {
     transform: translateX(15px);
+  }
+}
+
+@media screen and (max-width:400px){
+  .nun {
+     width: 90%;
+    height: auto;
+    background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
+    box-shadow: 3px 3px 10px rgba(202, 201, 201),
+      -3px -3px 10px rgba(255, 255, 255);
+    background-color: rgb(216, 214, 214);
+    /* background: orange; */
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    /* background-color: rebeccapurple;  */
   }
 }
