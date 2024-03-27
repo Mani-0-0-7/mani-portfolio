@@ -3439,23 +3439,3 @@ span {
   }
 }
 
-@media screen and (max-width:400px){
-  .nun {
-     width: 90%;
-    height: auto;
-    background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
-    box-shadow: 3px 3px 10px rgba(202, 201, 201),
-      -3px -3px 10px rgba(255, 255, 255);
-    background-color: rgb(216, 214, 214);
-    /* background: orange; */
-    margin-top: 20px;
-    margin-left: 0px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    transition: 0.3s;
-    margin: 0;
-    padding: 0;
-    /* background-color: rebeccapurple;  */
-  }
-}
