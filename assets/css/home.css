@@ -1761,17 +1761,20 @@ span {
     margin-top: 0px;
     /* background-color: #f9004d; */
   }
-.dirver{
+.dirver7{
   height: auto;
   width: 10%;
-  /* background-color: #22910c; */
+  /* background-color: blueviolet; */
+  color: #f9004d;
+  
 }
+
 .slidebar7{
   height: 100%;
-  width: 300px;
+  width: 320px;
   background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
   box-shadow: 5px 5px 10px rgb(229, 226, 226), -5px -5px 10px rgb(224, 221, 221);
-  /* background-color: rgb(230, 230, 230); */
+  /* background-color:#f9004d; */
   position: fixed;
   top: 0px;
   left: -100%;
@@ -1837,7 +1840,7 @@ display: none;
   font-weight: 500;
 }
 .socialicons{
-  height:200px ;
+  height:110px;
   width: 100%;
   /* background-color: darkmagenta; */
   margin-top: 50px;
