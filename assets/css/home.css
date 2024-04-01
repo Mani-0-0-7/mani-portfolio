@@ -1767,8 +1767,8 @@ span {
   /* background-color: #22910c; */
 }
 .slidebar7{
-  height: auto;
-  width: 320px;
+  height: 100%;
+  width: 300px;
   background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
   box-shadow: 5px 5px 10px rgb(229, 226, 226), -5px -5px 10px rgb(224, 221, 221);
   /* background-color: rgb(230, 230, 230); */
@@ -1777,6 +1777,7 @@ span {
   left: -100%;
   z-index: 999;
   transition: 1s;
+  overflow-y: scroll;
 }
 .slidebar7{
   display: block;
@@ -1814,8 +1815,8 @@ display: none;
   border-radius: 40px;
 }
 .slidecontainer{
-  width: 95%;
-  height: 65%;
+  width: 100%;
+  height: auto;
   /* background-color: aqua; */
   padding: 10px;
 }
@@ -1829,6 +1830,7 @@ display: none;
 .slidemenu{
   line-height: 50px;
   margin-top: 40px;
+  /* background-color: blue; */
 }
 .slidemenu h3{
   font-size: 14px;
@@ -1860,9 +1862,10 @@ display: none;
   background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
   box-shadow: 5px 5px 10px rgb(229, 226, 226), -5px -5px 10px rgb(224, 221, 221);
   display: flex;
+  color: #f9004d;
   align-items: center;
   justify-content: center;
-  border-radius: 7px;
+  border-radius: 5px;
   /* color: #f9004d; */
   transition: 0.3s;
 
