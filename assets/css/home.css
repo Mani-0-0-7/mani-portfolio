@@ -1822,7 +1822,7 @@ display: none;
 }
 .slidecontent p{
   font-size: 15PX;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   /* background-color: #22910c; */
   margin-top: 20px;
@@ -3482,6 +3482,7 @@ display: none;
   .mobile5 input {
     height: 50px;
     width: 100%;
+    outline: none;
     border-radius: 7px;
     border: 2px solid gray;
   }
@@ -3516,6 +3517,7 @@ display: none;
     width: 100%;
     border-radius: 7px;
     border: 2px solid gray;
+    outline: none;
   }
 
   .msginfo {
@@ -3532,6 +3534,7 @@ display: none;
     width: 100%;
     border-radius: 7px;
     border: 2px solid gray;
+    outline: none;
   }
   .sendmsg {
     height: 60px;
