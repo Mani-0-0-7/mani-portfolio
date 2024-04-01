@@ -1768,7 +1768,7 @@ span {
 }
 .slidebar7{
   height: auto;
-  width:320px;
+  width: 320px;
   background: linear-gradient(to bottom right, rgb(224, 224, 224), white);
   box-shadow: 5px 5px 10px rgb(229, 226, 226), -5px -5px 10px rgb(224, 221, 221);
   /* background-color: rgb(230, 230, 230); */
@@ -1777,6 +1777,7 @@ span {
   left: -100%;
   z-index: 999;
   transition: 1s;
+  overflow-x: scroll
 }
 .slidebar7{
   display: block;
