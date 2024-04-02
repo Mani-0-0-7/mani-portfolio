@@ -1971,7 +1971,7 @@ display: none;
     /* background-color: navy; */
   }
   .pic {
-    width: 60%;
+    width: 55%;
     height: 20%;
     /* background-color: blanchedalmond; */
     display: flex;
@@ -2009,10 +2009,11 @@ display: none;
   .data1 h1 {
     height: auto;
     width: auto;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
     font-size: 15px;
     margin-right: 0px;
     font-weight: 500;
+    /* background-color: aqua; */
   }
 
   .bio {
@@ -2024,16 +2025,19 @@ display: none;
     justify-content: flex-end;
     align-items: flex-start;
     padding-right: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .bio h1 {
-    margin-bottom: 25px;
+    height: auto;
+    width: auto;
+    /* background-color: maroon; */
+    margin-bottom: 18px;
     font-size: 15px;
     margin-right: 0px;
     font-weight: 500;
   }
   .app4 {
-    width: 60%;
+    width: 55%;
     height: 20%;
     display: flex;
     align-items: center;
