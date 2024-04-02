@@ -84,12 +84,6 @@ display: none;
   color: white;
   transform: translateY(-10px);
 }
-/* .dirver{
-  display: none;
-}
-.slidebar7{
-  display: none;
-} */
 
 .container {
   /* background-color: #0f2ac5; */
@@ -158,14 +152,31 @@ display: none;
   /* margin-top: 40px; */
   /* background-color: rgb(76, 143, 155); */
 }
+.data1 {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: rgb(211, 142, 15); */
+}
+.data1 h1 {
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+  font-size: 15px;
+  /* margin-right: 145px; */
+  font-weight: 500;
+}
 .pic {
-  width: 80%;
+  width: 75%;
   height: 40%;
   /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 .pic i {
   font-size: 20px;
@@ -191,24 +202,6 @@ display: none;
   transform: translateY(-10px);
 }
 
-.data1 {
-  width: 50%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  /* background-color: rgb(211, 142, 15); */
-}
-.data1 h1 {
-  height: auto;
-  width: auto;
-  margin-bottom: 25px;
-  font-size: 15px;
-  margin-right: 145px;
-  font-weight: 500;
-}
-
 .bio {
   width: 50%;
   height: 200px;
@@ -220,7 +213,7 @@ display: none;
   /* background-color: #f9004d; */
 }
 .bio h1 {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 15px;
   margin-right: 68px;
   font-weight: 500;
@@ -1642,6 +1635,7 @@ span {
   width: 260px;
   border-radius: 7px;
   border: 2px solid gray;
+  outline: none;
 }
 .phonebox5 h2 {
   font-size: 15px;
@@ -1653,6 +1647,7 @@ span {
   width: 260px;
   border-radius: 7px;
   border: 2px solid gray;
+  outline: none;
 }
 .subinfo h3 {
   font-size: 15px;
@@ -1670,6 +1665,7 @@ span {
   width: 100%;
   border-radius: 7px;
   border: 2px solid gray;
+  outline: none;
 }
 
 .msginfo {
@@ -1686,6 +1682,7 @@ span {
   width: 100%;
   border-radius: 7px;
   border: 2px solid gray;
+  outline: none;
 }
 .sendmsg {
   height: 60px;
@@ -1991,7 +1988,7 @@ display: none;
     justify-content: center;
     align-items: center;
     box-shadow: 0 8px 32px 0 gainsboro;
-    border-radius: 2px;
+    border-radius: 5px;
     transition: 0.2s;
   }
   .pic i:hover {
@@ -2053,7 +2050,7 @@ display: none;
     text-align: center;
     padding-top: 5px;
     box-shadow: 0 8px 32px 0 gainsboro;
-    border-radius: 2px;
+    border-radius: 5px;
     transition: 0.2s;
   }
   .app4 i:hover {
