@@ -1764,11 +1764,11 @@ span {
 .driver7{
   height: auto;
   width: 10%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   color: #f9004d;
 }
 .driver7 i{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .slidebar7{
@@ -1787,7 +1787,7 @@ span {
 .slidebar7{
   display: block;
 }
-.dirver{
+.driver7{
   display: block;
 }
 .slidebox{
