@@ -1972,7 +1972,7 @@ display: none;
     /* background-color: rgb(76, 143, 155); */
   }
   .data1 {
-    width: 50%;
+    width: 55%;
     height: auto;
     display: flex;
     /* flex-direction: column; */
@@ -1990,7 +1990,7 @@ display: none;
     font-weight: 500;
   }
   .pic {
-    width: 105%;
+    width: 100%;
     height: auto;
     /* background: green; */
     display: flex;
@@ -2023,7 +2023,7 @@ display: none;
   }
   
   .bio {
-    width: 50%;
+    width: 55%;
     height: auto;
     display: flex;
     /* flex-direction: column; */
@@ -2044,7 +2044,7 @@ display: none;
     font-weight: 500;
   }
   .app4 {
-    width: 105%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
