@@ -3313,7 +3313,7 @@ span {
   .visitblog {
     width: auto;
     height: auto;
-    background-color: #ffff00;
+    /* background-color: #ffff00; */
     text-align: center;
     border-top: 1px solid gray;
     margin-top: 50px;
